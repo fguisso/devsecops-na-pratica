@@ -33,5 +33,7 @@ Nossa Action agora espera que o fluxo da pipeline seja executada toda vez que oc
 Assim que a ferramenta terminar de executar, ela ira abrir uma Issue com um resumo dos resultados e seguindo o link para a execução da Actions, podemos baixar o Artifact, que neste caso é o report da ferramenta OWASP ZAP daa maneira convencional.
 
 Você pode verificar a Issue criada no primeiro Scan neste link: https://github.com/fguisso/devsecops-na-pratica/issues/1
+
 Para analisar o job deste primeiro scan, acesse este link: https://github.com/fguisso/devsecops-na-pratica/actions/runs/641418788
+
 E para baixar o Artifact deste job, só clicar e fazer o download do .zip que contem o resultado em formato Markdown, JSON ou HTML para melhor visualização: https://github.com/fguisso/devsecops-na-pratica/suites/2230937725/artifacts/46242565
