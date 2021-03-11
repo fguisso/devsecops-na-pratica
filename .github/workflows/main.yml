@@ -28,6 +28,6 @@ jobs:
 
       # Rodar o OWASP ZAP Action Full Scan passando um target, você tambem pode utilizar as variaveis de ambiente do Github Actions.
       - name: ZAP Scan
-        uses: zaproxy/action-full-scan@0.2.0
+        uses: zaproxy/action-full-scan@v0.2.0
         with:
           target: 'http://demo.owasp-juice.shop'
