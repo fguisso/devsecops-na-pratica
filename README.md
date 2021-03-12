@@ -26,9 +26,9 @@ Vamos utilizar o `full scan` apenas para visualizar todos os possiveis resultado
 
 ## Github Actions Workflow
 
-Quando colocamos um arquivo de configuração YML dentro de um diretorio chamado `.github/workflows`, automaticamento o Github Actions vai interpretar estas configurações e executar de acordo. Você pode [clicar aqui](https://github.com/fguisso/devsecops-na-pratica/tree/main/.github/workflows) para verficar como ficou nossa configuração final. Lembrando que estamos utilizando a aplicação, já em produção, OWASP Juice Shop, que é outro projeto da OWASP para simular um eCommerce com vulnerabilidades, para ser o nosso `target`: http://demo.owasp-juice.shop/
+Quando colocamos um arquivo de configuração YAML(`.yml`) dentro de um diretorio chamado `.github/workflows`, automaticamente o Github Actions vai interpretar estas configurações e executar de acordo. Você pode [clicar aqui](https://github.com/fguisso/devsecops-na-pratica/tree/main/.github/workflows) para verficar como ficou nossa configuração final. Lembrando que estamos utilizando a aplicação, já em produção, OWASP Juice Shop, que é outro projeto da OWASP para simular um eCommerce com vulnerabilidades, para ser o nosso `target`: http://demo.owasp-juice.shop/
 
-Nossa Action agora espera que o fluxo da pipeline seja executada toda vez que ocorrer ou um `push` na master, ou um PR e ainda pode ser disparada direto pelo dashboard de Actions.
+Nossa Action agora espera que o fluxo da pipeline seja executada toda vez que ocorrer um `push` na master, ou um PR e ainda pode ser disparada direto pelo dashboard de Actions.
 
 Assim que a ferramenta terminar de executar, ela ira abrir uma Issue com um resumo dos resultados e seguindo o link para a execução da Actions, podemos baixar o Artifact, que neste caso é o report da ferramenta OWASP ZAP daa maneira convencional.
 
